@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>WU-TANG Name Generator</title>
+</head>
+
+<body>
+  <h1> WU-TANG Name Generator </h1>
+  <!-- //create 5 survey questions with answers to choose from  -->
+  <!-- // add a drop down list and create id for that so we can do the query selectors for it on JS -->
+
+  <section class="first">
+    <label for="color">Choose Color:</label>
+    <select type="color" id="color">
+      <option value="">-- choose an option--</option>
+      <option value="0">Red</option>
+      <option value="1">Yellow</option>
+      <option value="2">Purple</option>
+    </select>
+  </section>
+
+  <section class="seccond">
+    <label for="color">Choose Shape:</label>
+    <select type="shape" id="shape">
+      <option value="">-- choose an option--</option>
+      <option value="0">Circle</option>
+      <option value="1">Square</option>
+      <option value="2">Triangle</option>
+    </select>
+  </section>
+
+  <section class="third">
+    <label for="cereal">Choose Cereal:</label>
+    <select type="cereal" id="cereal">
+      <option value="">-- choose an option--</option>
+      <option value="0">Fruity Pebbles</option>
+      <option value="1">Lucky Charms</option>
+      <option value="2">Apple Jacks</option>
+    </select>
+  </section>
+
+  <section class="fourth">
+    <label for="danceMove">Choose Dance Move:</label>
+    <select type="danceMove" id="danceMove">
+      <option value="">-- choose an option--</option>
+      <option value="0">Dougie</option>
+      <option value="1">Dab</option>
+      <option value="2">Stanky Leg</option>
+    </select>
+  </section>
+
+  <section class="fith">
+    <label for="line">Choose a line:</label>
+    <select class="line" id="line">
+      <option value="">-- choose an option--</option>
+      <option value="0">Hit em wit a banga</option>
+      <option value="1">Bbbrrrrrrr</option>
+      <option value="2">Anotha One</option>
+	</select>
+  </section>
+
+  <!-- // add a submit button  -->
+  <section class="resultButton">
+    <button class="favorite styled" type="button">
+      click to generate name
+    </button>
+  </section>
+  <!--
+// output result name using JS -->
+  <p class="wuTangName"></p>
+  <img src="./css/images/wutang.png">
+
+  <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

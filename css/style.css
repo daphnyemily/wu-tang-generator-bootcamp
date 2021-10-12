@@ -1,0 +1,108 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+     box-sizing: border-box;
+   }
+   
+   /* Clear fix hack */
+   .clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+   }
+   
+   .clear {
+        clear: both;
+   }
+   
+   .alignright {
+        float: right;
+        padding: 0 0 10px 10px; /* note the padding around a right floated image */
+   }
+   
+   .alignleft {
+        float: left;
+        padding: 0 10px 10px 0; /* note the padding around a left floated image */
+   }
+   /*1px  = 0.0625rem
+   10px = 0.625rem
+   12px = 0.75rem
+   14px = 0.875rem
+   16px = 1rem (base)
+   18px = 1.125rem
+   20px = 1.25rem
+   24px = 1.5rem
+   30px = 1.875rem
+   32px = 2rem*/
+   
+   /*.bodyCont {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        max-width: 1350;
+   }*/
+   
+   /******************************************
+   /* BASE STYLES
+   /*******************************************/
+   
+   body {
+        color: white;
+        font-size: 12px;
+        line-height: 1.4;
+        font-family: 'Permanent Marker', cursive, Helvetica, Arial, sans-serif;
+        background-image: url(./images/smoke.png);
+        text-align: center;
+   }
+   
+   
+   /******************************************
+   /* LAYOUT
+   /*******************************************/
+   h1{
+        color: rgb(248, 216, 74);
+        font-size: 50px;
+   }
+   img{
+        width: 10%;
+        display: block;
+        margin: auto;
+   }
+   label{
+        font-size: 30px;
+   }
+   select{
+        height: 30px;
+        width: 200px;
+        font-family: 'Permanent Marker', cursive, Helvetica, Arial, sans-serif;
+        font-size: 18px;
+   }
+   button{
+        height: 50px;
+        width: 300px;
+        color: rgb(248, 216, 74);
+        background: black;
+        border: 2px solid rgb(248, 216, 74);
+        border-radius: 8px;
+        margin-top: 38px;
+        font-size: 20px;
+        font-family: 'Permanent Marker', cursive, Helvetica, Arial, sans-serif;
+   }
+   p{
+        font-size: 70px;
+        margin: 10px;
+        color: black;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: rgb(248, 216, 74);
+   }
+   /******************************************
+   /* ADDITIONAL STYLES
+   /*******************************************/
+   
